@@ -6,7 +6,7 @@
 
 detailed discription
 
-![Running Calculator]()
+![Running Calculator](https://github.com/BOBJORGANSAM/Portfolio-SCHOOL-SAM/blob/main/images/Calculator.png?raw=true)
 
 * [Windows EXE]()
 * [MacOSX]()
