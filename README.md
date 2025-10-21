@@ -8,6 +8,6 @@ detailed discription
 
 ![Running Calculator](https://github.com/BOBJORGANSAM/Portfolio-SCHOOL-SAM/blob/main/images/Calculator.png?raw=true)
 
-* [Windows EXE]()
+* [Windows EXE](https://github.com/BOBJORGANSAM/Portfolio-SCHOOL-SAM/blob/main/src/Calculator/windows-amd64.zip)
 * [MacOSX](https://github.com/BOBJORGANSAM/Portfolio-SCHOOL-SAM/blob/main/src/Calculator/macos-aarch64.zip)
 * [Source Code]()
