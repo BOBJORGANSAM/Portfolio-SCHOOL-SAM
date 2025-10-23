@@ -4,7 +4,7 @@
 
 ### Calculator (2025)
 
-detailed discription
+This project is a simple calculator made in the Processing app that can do basic math operations like addition, subtraction, multiplication, and division. It has a clean layout with a display at the top to show numbers and results, and buttons for numbers and symbols arranged in a 3 by 4 grid. Each button reacts when clicked, and the program uses mouse input to figure out which button was pressed. When the equals button is clicked, the calculator does the correct math and shows the answer. There’s also a clear button to reset everything and basic error handling for things like dividing by zero. Overall, it’s an easy-to-use and nicely designed calculator built using Processing’s graphics and logic features.
 
 ![Running Calculator](https://github.com/BOBJORGANSAM/Portfolio-SCHOOL-SAM/blob/main/images/Calculator.png?raw=true)
 
