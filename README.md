@@ -11,3 +11,6 @@ This project is a simple calculator made in the Processing app that can do basic
 * [Windows EXE](https://github.com/BOBJORGANSAM/Portfolio-SCHOOL-SAM/blob/main/src/Calculator/windows-amd64.zip)
 * [MacOSX](https://github.com/BOBJORGANSAM/Portfolio-SCHOOL-SAM/blob/main/src/Calculator/macos-aarch64.zip)
 * [Source Code](https://github.com/BOBJORGANSAM/Portfolio-SCHOOL-SAM/tree/main/src/Calculator)
+
+
+![CalculatorUML.JPEG](https://raw.githubusercontent.com/BOBJORGANSAM/Portfolio-SCHOOL-SAM/refs/heads/main/src/Calculator/CalculatorUML.jpg)
