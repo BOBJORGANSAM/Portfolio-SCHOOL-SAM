@@ -54,7 +54,373 @@ void draw () {
   updateDisplay();
 }
 
-void mousePressed() {
+void keyReleased() {
+  println("Key:" + key);
+  println("KeyCode" + keyCode);
+  if (keyCode == 107) {
+    dVal = "0.0";
+    left = false;
+    op = "+";
+  } else if (keyCode == 10) {
+    performCalculation();
+  } else if (keyCode == 45 || keyCode == 109) {
+    dVal = "0.0";
+    left = false;
+    op = "-";
+  } else if (keyCode == 49 || keyCode == 97) {
+    if (dVal.length()<12) {
+      if (left == true) {
+        if (dVal.equals("0.0")) {
+          dVal = "1";
+          l = float(dVal);
+        } else {
+          dVal += "1";
+          l = float(dVal);
+        }
+      } else if (left == false) {
+        if (dVal.equals("0.0")) {
+          dVal = "1";
+          r = float(dVal);
+        } else {
+          dVal += "1";
+          r = float(dVal);
+        }
+      }
+      println("l:" + l);
+      println("r:" + r);
+      println("result:" + result);
+      println("left:" + left);
+      println("op:" + op);
+    }
+  } else if (keyCode == 8 || keyCode == 8) {
+    if (dVal.length()<12) {
+      if (left == true) {
+        if (dVal.equals("0.0")) {
+          dVal = "<";
+          l = float(dVal);
+        } else {
+          dVal += "<";
+          l = float(dVal);
+        }
+      } else if (left == false) {
+        if (dVal.equals("0.0")) {
+          dVal = "<";
+          r = float(dVal);
+        } else {
+          dVal += "<";
+          r = float(dVal);
+        }
+      }
+      println("l:" + l);
+      println("r:" + r);
+      println("result:" + result);
+      println("left:" + left);
+      println("op:" + op);
+    }
+  } else if (keyCode == 50 || keyCode == 98) {
+    if (dVal.length()<12) {
+      if (left == true) {
+        if (dVal.equals("0.0")) {
+          dVal = "2";
+          l = float(dVal);
+        } else {
+          dVal += "2";
+          l = float(dVal);
+        }
+      } else if (left == false) {
+        if (dVal.equals("0.0")) {
+          dVal = "2";
+          r = float(dVal);
+        } else {
+          dVal += "2";
+          r = float(dVal);
+        }
+      }
+      println("l:" + l);
+      println("r:" + r);
+      println("result:" + result);
+      println("left:" + left);
+      println("op:" + op);
+    }
+  } else if (keyCode == 51 || keyCode == 99) {
+    if (dVal.length()<12) {
+      if (left == true) {
+        if (dVal.equals("0.0")) {
+          dVal = "3";
+          l = float(dVal);
+        } else {
+          dVal += "3";
+          l = float(dVal);
+        }
+      } else if (left == false) {
+        if (dVal.equals("0.0")) {
+          dVal = "3";
+          r = float(dVal);
+        } else {
+          dVal += "3";
+          r = float(dVal);
+        }
+      }
+      println("l:" + l);
+      println("r:" + r);
+      println("result:" + result);
+      println("left:" + left);
+      println("op:" + op);
+    }
+  } else if (keyCode == 52 || keyCode == 100) {
+    if (dVal.length()<12) {
+      if (left == true) {
+        if (dVal.equals("0.0")) {
+          dVal = "4";
+          l = float(dVal);
+        } else {
+          dVal += "4";
+          l = float(dVal);
+        }
+      } else if (left == false) {
+        if (dVal.equals("0.0")) {
+          dVal = "4";
+          r = float(dVal);
+        } else {
+          dVal += "4";
+          r = float(dVal);
+        }
+      }
+      println("l:" + l);
+      println("r:" + r);
+      println("result:" + result);
+      println("left:" + left);
+      println("op:" + op);
+    }
+  } else if (keyCode == 53 || keyCode == 101) {
+    if (dVal.length()<12) {
+      if (left == true) {
+        if (dVal.equals("0.0")) {
+          dVal = "5";
+          l = float(dVal);
+        } else {
+          dVal += "5";
+          l = float(dVal);
+        }
+      } else if (left == false) {
+        if (dVal.equals("0.0")) {
+          dVal = "5";
+          r = float(dVal);
+        } else {
+          dVal += "5";
+          r = float(dVal);
+        }
+      }
+      println("l:" + l);
+      println("r:" + r);
+      println("result:" + result);
+      println("left:" + left);
+      println("op:" + op);
+    }
+  } else if (keyCode == 54 || keyCode == 102) {
+    if (dVal.length()<12) {
+      if (left == true) {
+        if (dVal.equals("0.0")) {
+          dVal = "6";
+          l = float(dVal);
+        } else {
+          dVal += "6";
+          l = float(dVal);
+        }
+      } else if (left == false) {
+        if (dVal.equals("0.0")) {
+          dVal = "6";
+          r = float(dVal);
+        } else {
+          dVal += "6";
+          r = float(dVal);
+        }
+      }
+      println("l:" + l);
+      println("r:" + r);
+      println("result:" + result);
+      println("left:" + left);
+      println("op:" + op);
+    }
+  } else if (keyCode == 55 || keyCode == 103) {
+    if (dVal.length()<12) {
+      if (left == true) {
+        if (dVal.equals("0.0")) {
+          dVal = "7";
+          l = float(dVal);
+        } else {
+          dVal += "7";
+          l = float(dVal);
+        }
+      } else if (left == false) {
+        if (dVal.equals("0.0")) {
+          dVal = "7";
+          r = float(dVal);
+        } else {
+          dVal += "7";
+          r = float(dVal);
+        }
+      }
+      println("l:" + l);
+      println("r:" + r);
+      println("result:" + result);
+      println("left:" + left);
+      println("op:" + op);
+    }
+  } else if (keyCode == 56 || keyCode == 104) {
+    if (dVal.length()<12) {
+      if (left == true) {
+        if (dVal.equals("0.0")) {
+          dVal = "8";
+          l = float(dVal);
+        } else {
+          dVal += "8";
+          l = float(dVal);
+        }
+      } else if (left == false) {
+        if (dVal.equals("0.0")) {
+          dVal = "8";
+          r = float(dVal);
+        } else {
+          dVal += "8";
+          r = float(dVal);
+        }
+      }
+      println("l:" + l);
+      println("r:" + r);
+      println("result:" + result);
+      println("left:" + left);
+      println("op:" + op);
+    }
+  } else if (keyCode == 57 || keyCode == 105) {
+    if (dVal.length()<12) {
+      if (left == true) {
+        if (dVal.equals("0.0")) {
+          dVal = "9";
+          l = float(dVal);
+        } else {
+          dVal += "9";
+          l = float(dVal);
+        }
+      } else if (left == false) {
+        if (dVal.equals("0.0")) {
+          dVal = "9";
+          r = float(dVal);
+        } else {
+          dVal += "9";
+          r = float(dVal);
+        }
+      }
+      println("l:" + l);
+      println("r:" + r);
+      println("result:" + result);
+      println("left:" + left);
+      println("op:" + op);
+    }
+  } else if (keyCode == 96 || keyCode == 48) {
+    if (dVal.length()<12) {
+      if (left == true) {
+        if (dVal.equals("0.0")) {
+          dVal = "0";
+          l = float(dVal);
+        } else {
+          dVal += "0";
+          l = float(dVal);
+        }
+      } else if (left == false) {
+        if (dVal.equals("0.0")) {
+          dVal = "0";
+          r = float(dVal);
+        } else {
+          dVal += "0";
+          r = float(dVal);
+        }
+      }
+      println("l:" + l);
+      println("r:" + r);
+      println("result:" + result);
+      println("left:" + left);
+      println("op:" + op);
+    }
+  } else if (keyCode == 46 || keyCode == 110) {
+    if (dVal.length()<12) {
+      if (left == true) {
+        if (dVal.equals("0.0")) {
+          dVal = ".";
+          l = float(dVal);
+        } else {
+          dVal += ".";
+          l = float(dVal);
+        }
+      } else if (left == false) {
+        if (dVal.equals("0.0")) {
+          dVal = ".";
+          r = float(dVal);
+        } else {
+          dVal += ".";
+          r = float(dVal);
+        }
+      }
+      println("l:" + l);
+      println("r:" + r);
+      println("result:" + result);
+      println("left:" + left);
+      println("op:" + op);
+    }
+  } else if (keyCode == 88 || keyCode == 106) {
+    if (dVal.length()<12) {
+      if (left == true) {
+        if (dVal.equals("0.0")) {
+          dVal = "X";
+          l = float(dVal);
+        } else {
+          dVal += "X";
+          l = float(dVal);
+        }
+      } else if (left == false) {
+        if (dVal.equals("0.0")) {
+          dVal = "X";
+          r = float(dVal);
+        } else {
+          dVal += "X";
+          r = float(dVal);
+        }
+      }
+      println("l:" + l);
+      println("r:" + r);
+      println("result:" + result);
+      println("left:" + left);
+      println("op:" + op);
+    }
+  } else if (keyCode == 111 || keyCode == 47) {
+    if (dVal.length()<12) {
+      if (left == true) {
+        if (dVal.equals("0.0")) {
+          dVal = "/";
+          l = float(dVal);
+        } else {
+          dVal += "/";
+          l = float(dVal);
+        }
+      } else if (left == false) {
+        if (dVal.equals("0.0")) {
+          dVal = "/";
+          r = float(dVal);
+        } else {
+          dVal += "/";
+          r = float(dVal);
+        }
+      }
+      println("l:" + l);
+      println("r:" + r);
+      println("result:" + result);
+      println("left:" + left);
+      println("op:" + op);
+    }
+  }
+}
+
+void mouseReleased() {
   for (int i = 0; i<buttons.length; i++) {
     if (buttons[i].over && buttons[i].val == '+') {
       dVal = "0.0";
