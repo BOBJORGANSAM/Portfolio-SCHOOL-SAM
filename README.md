@@ -17,7 +17,7 @@ This project is a simple calculator made in the Processing app that can do basic
 
 
 #### Burining Rubber Car Game (Samuel Harmon and Jack Quinn)
-#####Planner
+#Planner
 
 ![Burning Rubber planner](https://github.com/BOBJORGANSAM/Portfolio-SCHOOL-SAM/blob/main/images/Burning%20Rubber%20planner.png?raw=true)
 
