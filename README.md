@@ -27,4 +27,4 @@ This project is a simple calculator made in the Processing app that can do basic
 ![The Staart up screen](https://github.com/BOBJORGANSAM/Portfolio-SCHOOL-SAM/blob/main/images/Startup%20screen.png?raw=true)
 ![Settings Screen]()
 ![The In Game Screen]()
-![The Ending Screen]()
+![The Ending Screen](https://github.com/BOBJORGANSAM/Portfolio-SCHOOL-SAM/blob/main/images/Ending%20screen.png?raw=true)
